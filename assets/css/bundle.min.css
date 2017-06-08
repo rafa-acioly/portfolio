@@ -12243,25 +12243,25 @@ main {
   .background-position-config:not(:first-child), #onix:not(:first-child), #alonghair:not(:first-child) {
     margin-top: 1rem; }
 
+.font-config .title, #onix .title, #alonghair .title,
+.font-config .subtitle, #onix .subtitle, #alonghair .subtitle,
+.font-config p, #onix p, #alonghair p,
+.font-config .fa, #onix .fa, #alonghair .fa {
+  color: white; }
+
 #onix {
-  background-image: url("/portfolio/assets/images/onix/screen.png");
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background: linear-gradient(150deg, rgba(85, 102, 109, 0.8) 30%, rgba(90, 134, 130, 0.64) 70%) 0 0/cover fixed, url("/portfolio/assets/images/onix/screen.png") bottom/cover no-repeat;
+  transition: all 1s ease; }
   #onix:hover {
     background-size: 105%;
-    transition: background-size 3s ease;
     -webkit-animation: show 3s infinite;
             animation: show 3s infinite; }
 
 #alonghair {
-  background-image: url("/portfolio/assets/images/alonghair/screen.png");
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background: linear-gradient(150deg, rgba(85, 102, 109, 0.8) 30%, rgba(90, 134, 130, 0.64) 70%) 0 0/cover fixed, url("/portfolio/assets/images/alonghair/screen.png") bottom/cover no-repeat;
+  transition: all 1s ease; }
   #alonghair:hover {
     background-size: 105%;
-    transition: background-size 3s ease;
     -webkit-animation: show 3s infinite;
             animation: show 3s infinite; }
 
